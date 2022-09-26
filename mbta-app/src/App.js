@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import logo from './logo.png';
 import './index.css';
 
 function App() {
@@ -8,10 +9,10 @@ function App() {
         <div className="input-container">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-              <h3>
+              <h3 className="header-title">
                 Train Finder
               </h3>
-            <p className="App-subtitle">Select a route to find the right train</p> 
+            <p className="header-subtitle">Select a route to find the right train</p> 
           </header>
         </div>
         </div>
