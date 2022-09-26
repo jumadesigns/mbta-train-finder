@@ -55,7 +55,16 @@ function Input() {
         }
       }, [start, destination]);
 
-      
+      //Checks for inputs with the wrong answer.
+      useEffect(() => {
+        if(notFound !== ""){
+            setFoundTrains("")
+        }else if(foundTrains !== ""){
+            setFoundTrains()
+        }
+      }, [notFound, foundTrains])
+
+
       const handleStartChange = (event) => {
         const word = event.target.value;
 
@@ -138,8 +147,8 @@ function Input() {
                     onChange={(e) => handleDestinationChange(e)}
                 />
                 <h4 className="label-title train-title" >Train name:</h4>
-                <h3 classname="train-namee">{foundTrains}</h3>
-                <h4 classname="train-name-not-found">{notFound}</h4>
+                <h2 id="train-name">{foundTrains}</h2>
+                <p id="train-name-not-found">{notFound}</p>
                 
                 <button 
                 onClick={FindTrains}

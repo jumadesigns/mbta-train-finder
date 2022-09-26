@@ -102,17 +102,21 @@ border-radius: 7px;
   background-color: #61dafb;
 }
 
-.train-name {
+#train-name {
   font-weight: 700;
   font-size: 20px;
   color: #1E1E1E;
+  background-color: antiquewhite;
+  margin-bottom: 0px;
   
 }
 
-.train-name-not-found{
-  color: red;
-  font-size: 20px;
+#train-name-not-found{
+  font-size: 15px;
+  font-weight: 700;
   margin-top: 0vh;
+  color: red;
+  background-color: #61dafb;
 }
 
 .bottom-container {
