@@ -51,6 +51,7 @@ function Input() {
         if (start === "" && destination === "") {
           setNotFound("");
           setErrorText("");
+          setFoundTrains("")
         }
       }, [start, destination]);
 
@@ -94,7 +95,7 @@ function Input() {
             .join("line, ");
           setFoundTrains(found);
         } else {
-          setNotFound("No Train Station found.");
+          setNotFound("No train was found! Please adjust your search.");
         }
       };
     
@@ -122,6 +123,7 @@ function Input() {
 
                 <h4 className="label-title">Enter start station</h4>
                 <input
+                    className="input-bar"
                     type="text"
                     value={start}
                     placeholder="Start"
@@ -129,21 +131,25 @@ function Input() {
                 />
                 <h4 className="label-title">Enter destination station</h4>
                 <input
+                    className="input-bar"
                     type="text"
                     value={destination}
                     placeholder="Destination"
                     onChange={(e) => handleDestinationChange(e)}
                 />
-                <h4 className="label-title">Train</h4>
-                {errorText}
-                {notFound}
+                <h4 className="label-title train-title" >Train name:</h4>
+                <h3 classname="train-namee">{foundTrains}</h3>
+                <h4 classname="train-name-not-found">{notFound}</h4>
+                
                 <button 
                 onClick={FindTrains}
                 className="find-train-button"
                 >
-                  <p className="button-text">Find Trains</p>
+                  <h3 className="button-text">Find Trains</h3>
                 </button>
-                <p>{foundTrains}</p>
+                
+                {errorText}
+        
             </div>
         </div>
       );

@@ -48,7 +48,8 @@ body {
 }
 
 .input-container {
-  height: 60vh;
+  margin-top: 2vh;
+  height: 55vh;
   width: 450px;
   /*background: rgb(255, 200, 198);*/
   margin-bottom: 16vh;
@@ -70,19 +71,49 @@ body {
   padding: 1px;
   margin: 5px;
   margin-bottom: 10px;
+  margin-left: 0px;
 }
 
 .find-train-button {
 height: 48px;
 background-color: #1E1E1E;
 color: white;
+border: 1.5px solid #1E1E1E;;
+border-radius: 7px;
 }
 
 .button-text{
   text-align: center;
   font-size: 16px;
+  margin-top: 13px;
 }
 
+.input-bar {
+  background: #E4E4E4;
+  border: 1.5px solid #858689;
+  border-radius: 5px;
+  height: 33px;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.train-title {
+  margin-bottom: 0vh;
+  background-color: #61dafb;
+}
+
+.train-name {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1E1E1E;
+  
+}
+
+.train-name-not-found{
+  color: red;
+  font-size: 20px;
+  margin-top: 0vh;
+}
 
 .bottom-container {
   position: absolute;
