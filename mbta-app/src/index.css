@@ -22,20 +22,17 @@ body {
   margin-right: 25vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .header-title {
   text-align: left;
   margin-top: 6vh;
+  font-size: 17px;
 }
 
 .header-subtitle {
   color: #858689;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   text-align: left;
   margin-top: -2vh;
@@ -57,6 +54,35 @@ body {
   margin-bottom: 16vh;
   
 }
+
+.mbta-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  /*background-color: #61dafb;*/
+}
+
+.label-title {
+  font-size: 14px;
+  color: #1E1E1E;
+  text-align: left;
+  padding: 1px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.find-train-button {
+height: 48px;
+background-color: #1E1E1E;
+color: white;
+}
+
+.button-text{
+  text-align: center;
+  font-size: 16px;
+}
+
 
 .bottom-container {
   position: absolute;
