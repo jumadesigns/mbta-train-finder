@@ -39,7 +39,6 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #e9eaed;
-  height: 65vh;
 }
 
 .input-container {
@@ -47,6 +46,7 @@ body {
   height: 50vh;
   width: 450px;
   margin-bottom: 12vh;
+  background-color: ;
 }
 
 .mbta-input-container {
