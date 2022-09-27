@@ -50,18 +50,20 @@ function App() {
       </div>
       <div className="bottom-container">
         <div className="bottom-center-div">
-          <h3 className="bottom-section-title-1">How to use:</h3>
+         {/*  <div className="block-one"> */}
+            <h3 className="bottom-section-title-1">How to use:</h3>
 
-          <p className="bottom-section-paragraph-1">
-            Enter a start and destination station to find the name of the train
-            operating on that route. Both inputs must start with an uppercase
-            letter and must also match with the information on our database in
-            order to find the right train.
-            <p>
-              List of routes that could be searched are displayed below from
-              start to destination.
+            <p className="bottom-section-paragraph-1">
+              Enter a start and destination station to find the name of the train
+              operating on that route. Both inputs must start with an uppercase
+              letter and must also match with the information on our database in
+              order to find the right train.
+              <p>
+                List of routes that could be searched are displayed below from
+                start to destination.
+              </p>
             </p>
-          </p>
+        {/*   </div> */}
 
           <h3 className="bottom-section-title-2">Routes:</h3>
 

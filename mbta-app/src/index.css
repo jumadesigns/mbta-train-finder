@@ -118,6 +118,12 @@ body {
   font-weight: 700;
 }
 
+/* .block-one {
+  background-color: antiquewhite;
+  padding-top: 10px;
+  padding-bottom: 20px;
+} */
+
 .bottom-container {
   /*position: absolute;*/
   /*bottom: 40;*/
@@ -138,7 +144,7 @@ body {
   top: 40%;
   /*position: static;*/
   padding-bottom: 2vh;
-  background-color: blue;
+  /*background-color: blue;*/
   padding-top: 20px;
   padding-bottom: 25px;
 }
@@ -155,22 +161,26 @@ body {
   position: absolute;
   font-weight: 700;
   font-size: 17px;
-  margin-top: 2vh;
+  /* margin-top: 2vh; */
   margin-right: 25vw;
 }
 
 .bottom-section-paragraph-1 {
+  position: sticky;
   font-size: 12px;
   text-align: left;
   color: #858689;
-  margin-top: 6.9vh;
+  /* margin-top: 6.9vh; */
   width: 500px;
+  padding-top: 45px;
 }
 
 .bottom-section-paragraph-2 {
+  
   font-size: 12px;
   text-align: left;
   color: #858689;
-  margin-top: 8vh;
+  /* margin-top: 8vh; */
   width: 500px;
+  padding-top: 57px;
 }
