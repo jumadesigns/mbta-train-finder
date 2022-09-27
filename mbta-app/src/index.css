@@ -139,13 +139,15 @@ body {
   /*position: static;*/
   padding-bottom: 2vh;
   background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .bottom-section-title-1 {
   position: absolute;
   font-weight: 700;
   font-size: 17px;
-  margin-top: 5vh;
+  /*margin-top: 5vh;*/
   margin-right: 25vw;
 }
 
@@ -161,7 +163,7 @@ body {
   font-size: 12px;
   text-align: left;
   color: #858689;
-  margin-top: 9.3vh;
+  margin-top: 6.9vh;
   width: 500px;
 }
 
