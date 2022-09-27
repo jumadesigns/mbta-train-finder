@@ -137,6 +137,7 @@ body {
   /*margin-top: -10px;*/
   top: 40%;
   /*position: static;*/
+  padding-bottom: 2vh;
   background-color: blue;
 }
 
