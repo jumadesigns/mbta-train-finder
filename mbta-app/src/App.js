@@ -40,7 +40,8 @@ function App() {
             <img src={logo} className="App-logo" alt="logo" />
             <h3 className="header-title">Train Finder</h3>
             <p className="header-subtitle">
-              Welcome to the MBTA train finder. Select a route to find the right train. <br></br>
+              Welcome to the MBTA train finder. Select a route to find the right
+              train. <br></br>
               For more infomation on how to use, see instructions below.
             </p>
           </header>
@@ -50,20 +51,18 @@ function App() {
       </div>
       <div className="bottom-container">
         <div className="bottom-center-div">
-         {/*  <div className="block-one"> */}
-            <h3 className="bottom-section-title-1">How to use:</h3>
+          <h3 className="bottom-section-title-1">How to use:</h3>
 
-            <p className="bottom-section-paragraph-1">
-              Enter a start and destination station to find the name of the train
-              operating on that route. Both inputs must start with an uppercase
-              letter and must also match with the information on our database in
-              order to find the right train.
-              <p>
-                List of routes that could be searched are displayed below from
-                start to destination.
-              </p>
+          <p className="bottom-section-paragraph-1">
+            Enter a start and destination station to find the name of the train
+            operating on that route. Both inputs must start with an uppercase
+            letter and must also match with the information on our database in
+            order to find the right train.
+            <p>
+              List of routes that could be searched are displayed below from
+              start to destination.
             </p>
-        {/*   </div> */}
+          </p>
 
           <h3 className="bottom-section-title-2">Routes:</h3>
 
