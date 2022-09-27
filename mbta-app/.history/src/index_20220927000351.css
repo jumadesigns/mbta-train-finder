@@ -39,14 +39,15 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #e9eaed;
-  height: 75vh;
+  height: 65vh;
 }
 
 .input-container {
   margin-top: 2vh;
   height: 50vh;
   width: 450px;
-  margin-bottom: 17vh;
+  margin-bottom: 12vh;
+  background-color: ;
 }
 
 .mbta-input-container {
