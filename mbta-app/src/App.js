@@ -40,7 +40,8 @@ function App() {
             <img src={logo} className="App-logo" alt="logo" />
             <h3 className="header-title">Train Finder</h3>
             <p className="header-subtitle">
-              Welcome to the MBTA train finder. Select a route to find the right train. <br></br>
+              Welcome to the MBTA train finder. Select a route to find the right
+              train. <br></br>
               For more infomation on how to use, see instructions below.
             </p>
           </header>

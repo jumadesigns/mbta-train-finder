@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
+  background-color: #1e1e1e;
 }
 
 .App {
@@ -30,7 +30,7 @@ body {
   font-size: 12px;
   font-weight: 500;
   text-align: left;
-  margin-top: -2vh;
+  margin-top: -1vh;
 }
 
 .input-div {
@@ -38,14 +38,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e9eaed;
+  background-color: #E9EAED;
 }
 
 .input-container {
-  margin-top: 2vh;
-  height: 55vh;
   width: 450px;
-  margin-bottom: 16vh;
+  padding-bottom: 5vh;
 }
 
 .mbta-input-container {
@@ -114,12 +112,9 @@ body {
 }
 
 .bottom-container {
-  position: absolute;
-  bottom: 40;
   width: 100%;
   background-color: #e1e1e1;
   border-top: 4px #b5b5b5 solid;
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,17 +122,17 @@ body {
 }
 
 .bottom-center-div {
-  height: 350px;
-
   width: 450px;
-  margin-top: -3vh;
+  top: 40%;
+  padding-bottom: 2vh;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .bottom-section-title-1 {
   position: absolute;
   font-weight: 700;
   font-size: 17px;
-  margin-top: 5vh;
   margin-right: 25vw;
 }
 
@@ -145,22 +140,22 @@ body {
   position: absolute;
   font-weight: 700;
   font-size: 17px;
-  margin-top: 2vh;
   margin-right: 25vw;
 }
 
 .bottom-section-paragraph-1 {
+  position: sticky;
   font-size: 12px;
   text-align: left;
   color: #858689;
-  margin-top: 9.3vh;
   width: 500px;
+  padding-top: 44.5px;
 }
 
 .bottom-section-paragraph-2 {
   font-size: 12px;
   text-align: left;
   color: #858689;
-  margin-top: 8vh;
   width: 500px;
+  padding-top: 57px;
 }

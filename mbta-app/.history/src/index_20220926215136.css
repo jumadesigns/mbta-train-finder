@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  margin-top: 3vh;
+  max-width: 65%;
+  max-height: 65%;
+  margin-right: 25vh;
+}
+
+.header-title {
+  text-align: left;
+  margin-top: 6vh;
+  font-size: 17px;
+}
+
+.header-subtitle {
+  color: #858689;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: -2vh;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9eaed;
+}
+
+.input-container {
+  margin-top: 2vh;
+  height: 55vh;
+  width: 450px;
+  margin-bottom: 16vh;
+}
+
+.mbta-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.label-title {
+  font-size: 14px;
+  color: #1e1e1e;
+  text-align: left;
+  padding: 1px;
+  margin: 5px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.find-train-button {
+  height: 48px;
+  background-color: #1e1e1e;
+  color: white;
+  border: 1.5px solid #1e1e1e;
+  border-radius: 7px;
+}
+
+.button-text {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 13px;
+}
+
+.input-bar {
+  background: #e4e4e4;
+  border: 1.5px solid #858689;
+  border-radius: 5px;
+  height: 33px;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.train-title {
+  margin-bottom: 0vh;
+}
+
+#train-name {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e1e1e;
+  margin-bottom: 0px;
+}
+
+#train-name-not-found {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 0vh;
+  color: red;
+}
+
+#error-message {
+  margin-top: 1vh;
+  color: red;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.bottom-container {
+  position: absolute;
+  bottom: 40;
+  width: 100%;
+  background-color: #e1e1e1;
+  border-top: 4px #b5b5b5 solid;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-center-div {
+  height: 4px;
+  width: 450px;
+  margin-top: 0vh;
+  background-color: blue;
+}
+
+.bottom-section-title-1 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 5vh;
+  margin-right: 25vw;
+}
+
+.bottom-section-title-2 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 2vh;
+  margin-right: 25vw;
+}
+
+.bottom-section-paragraph-1 {
+  font-size: 12px;
+  text-align: left;
+  color: #858689;
+  margin-top: 9.3vh;
+  width: 500px;
+}
+
+.bottom-section-paragraph-2 {
+  font-size: 12px;
+  text-align: left;
+  color: #858689;
+  margin-top: 8vh;
+  width: 500px;
+}
