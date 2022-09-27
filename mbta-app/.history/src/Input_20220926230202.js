@@ -61,13 +61,12 @@ function Input() {
     }
   }, [notFound]);
 
-  //Checks for when wrong answer is deleted.
   useEffect(() => {
-    if (start && destination) {
+    if (start) {
       setNotFound("");
-      console.log(start, destination);
+      console.log(start);
     }
-  }, [start, destination]);
+  }, [start, des]);
 
   const handleStartChange = (event) => {
     const word = event.target.value;

@@ -30,7 +30,7 @@ body {
   font-size: 12px;
   font-weight: 500;
   text-align: left;
-  margin-top: -1vh;
+  margin-top: -2vh;
 }
 
 .input-div {
@@ -43,9 +43,9 @@ body {
 
 .input-container {
   margin-top: 2vh;
-  height: 50vh;
+  height: 55vh;
   width: 450px;
-  margin-bottom: 12vh;
+  margin-bottom: 16vh;
 }
 
 .mbta-input-container {
@@ -119,7 +119,7 @@ body {
   width: 100%;
   background-color: #e1e1e1;
   border-top: 4px #b5b5b5 solid;
-  height: 40vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,10 +129,8 @@ body {
 .bottom-center-div {
   height: 400px;
   width: 450px;
-  margin-top: -10px;
-  top: 40%;
-  position: static;
-  /*background-color: blue;*/
+  margin-top: -7vh;
+  background-color: blue;
 }
 
 .bottom-section-title-1 {

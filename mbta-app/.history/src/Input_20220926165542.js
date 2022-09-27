@@ -61,14 +61,6 @@ function Input() {
     }
   }, [notFound]);
 
-  //Checks for when wrong answer is deleted.
-  useEffect(() => {
-    if (start && destination) {
-      setNotFound("");
-      console.log(start, destination);
-    }
-  }, [start, destination]);
-
   const handleStartChange = (event) => {
     const word = event.target.value;
 
@@ -88,9 +80,7 @@ function Input() {
 
     //Checks for validation to make sure first letter is uppercase. (New Feature)
     if (word.charAt(0) === word.charAt(0).toLowerCase()) {
-      setErrorText(
-        "*First letter must be Uppercase! Please delete and type again"
-      );
+      setErrorText("First letter must be Uppercase");
     } else if (word.charAt(0) === word.charAt(0).toUpperCase()) {
       setErrorText("");
     }

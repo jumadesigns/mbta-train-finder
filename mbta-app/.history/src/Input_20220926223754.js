@@ -61,14 +61,6 @@ function Input() {
     }
   }, [notFound]);
 
-  //Checks for when wrong answer is deleted.
-  useEffect(() => {
-    if (start && destination) {
-      setNotFound("");
-      console.log(start, destination);
-    }
-  }, [start, destination]);
-
   const handleStartChange = (event) => {
     const word = event.target.value;
 
@@ -111,6 +103,7 @@ function Input() {
         .map((train) => train.attributes.long_name)
         .join("line, ");
       setFoundTrains(found);
+      se
     } else {
       setNotFound(
         "*No train was found! Please clear all inputs and search again."

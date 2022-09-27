@@ -61,7 +61,7 @@ function Input() {
     }
   }, [notFound]);
 
-  //Checks for when wrong answer is deleted.
+  //Checks for when wrong answer is removed
   useEffect(() => {
     if (start && destination) {
       setNotFound("");

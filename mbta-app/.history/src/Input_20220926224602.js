@@ -58,16 +58,11 @@ function Input() {
   useEffect(() => {
     if (notFound !== "") {
       setFoundTrains("");
-    }
-  }, [notFound]);
+    }else if (foundTrains){
 
-  //Checks for when wrong answer is deleted.
-  useEffect(() => {
-    if (start && destination) {
-      setNotFound("");
-      console.log(start, destination);
     }
-  }, [start, destination]);
+
+  }, [notFound]);
 
   const handleStartChange = (event) => {
     const word = event.target.value;
