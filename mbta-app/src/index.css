@@ -38,13 +38,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
+  background-color: #E9EAED;
 }
 
 .input-container {
   width: 450px;
   padding-bottom: 5vh;
-  background-color: aqua;
 }
 
 .mbta-input-container {
