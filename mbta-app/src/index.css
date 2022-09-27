@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
+  /*height: 100vh;*/
+  background-color: brown;
 }
 
 .App {
@@ -38,15 +39,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e9eaed;
-  height: 75vh;
+  /*background-color: #e9eaed;*/
+  background-color: bisque;
+
+  /*height: 60vh;*/
 }
 
 .input-container {
-  margin-top: 2vh;
-  height: 50vh;
+  /*margin-top: 2vh;*/
+  /*height: 50vh;*/
   width: 450px;
-  margin-bottom: 17vh;
+  padding-bottom: 5vh;
+  background-color: aqua;
 }
 
 .mbta-input-container {
@@ -115,12 +119,12 @@ body {
 }
 
 .bottom-container {
-  position: absolute;
-  bottom: 40;
+  /*position: absolute;*/
+  /*bottom: 40;*/
   width: 100%;
   background-color: #e1e1e1;
   border-top: 4px #b5b5b5 solid;
-  height: 40vh;
+  /*height: 40vh;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,12 +132,12 @@ body {
 }
 
 .bottom-center-div {
-  height: 400px;
+  /*height: 400px;*/
   width: 450px;
-  margin-top: -10px;
+  /*margin-top: -10px;*/
   top: 40%;
-  position: static;
-  /*background-color: blue;*/
+  /*position: static;*/
+  background-color: blue;
 }
 
 .bottom-section-title-1 {
